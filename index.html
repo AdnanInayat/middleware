@@ -54,6 +54,7 @@
         function convert() {
             var euro_amount = document.getElementById('euro_txt').value;
             var selected_currency = document.getElementById('currency_slct').value;
+            var customer = document.getElementById('customer_txt').value;
             // var conversion_rate = [1.11, 0.86];
             // if (typeof euro_amount !== 'undefined') {
             //     var res = parseFloat(euro_amount) * conversion_rate[selected_currency];
@@ -61,7 +62,7 @@
             //     document.getElementById('res_p').style.display = "block";
             // }
             const Http = new XMLHttpRequest();
-            const url = 'http://localhost:8080?amount=' + euro_amount + '&selected_currency=' + selected_currency;
+            const url = 'http://localhost:8080?amount=' + euro_amount + '&selected_currency=' + selected_currency + '&customer=' + customer;
             Http.open("GET", url);
             Http.send();
 

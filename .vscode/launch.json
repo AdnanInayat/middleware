@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "converter",
             "program": "${workspaceFolder}\\server.js"
         }
     ]
