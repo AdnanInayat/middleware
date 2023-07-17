@@ -4,7 +4,7 @@
   "description": "To make this app running system should have Node.js installed\r After clonning write command node server.js to run the server",
   "main": "server.js",
   "dependencies": {
-    "mysql": "^2.17.1"
+    "mysql": "^2.18.0"
   },
   "devDependencies": {},
   "scripts": {
